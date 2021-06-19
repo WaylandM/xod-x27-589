@@ -1,0 +1,319 @@
+{
+  "description": "Demonstration of non-blocking updates. On startup gauge will be set to zero. Then gauge can be controlled using a potentiometer (analog-read).",
+  "links": [
+    {
+      "id": "BJ1gTR1tjoO",
+      "input": {
+        "nodeId": "rkgaC1Fjiu",
+        "pinKey": "ryvc2Lisd"
+      },
+      "output": {
+        "nodeId": "HJGaA1Fjju",
+        "pinKey": "H12bIR_SPyZ"
+      }
+    },
+    {
+      "id": "H1xepCyKjo_",
+      "input": {
+        "nodeId": "H1maC1Koi_",
+        "pinKey": "S1SPWUijd"
+      },
+      "output": {
+        "nodeId": "Hkp01FjjO",
+        "pinKey": "H1ZzbIsid"
+      }
+    },
+    {
+      "id": "H1-ea0ktij_",
+      "input": {
+        "nodeId": "HySpR1Yoiu",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "ryEa01Fjs_",
+        "pinKey": "ryVmUAOrvkb"
+      }
+    },
+    {
+      "id": "SJflTC1Koju",
+      "input": {
+        "nodeId": "H1maC1Koi_",
+        "pinKey": "Syygo8si_"
+      },
+      "output": {
+        "nodeId": "HySpR1Yoiu",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "ryXx6AJKijd",
+      "input": {
+        "nodeId": "H1Dp01Foj_",
+        "pinKey": "__in__"
+      },
+      "output": {
+        "nodeId": "Hkp01FjjO",
+        "pinKey": "H1ZzbIsid"
+      }
+    },
+    {
+      "id": "H1Nxp0kKsid",
+      "input": {
+        "nodeId": "rkgaC1Fjiu",
+        "pinKey": "H1fFnUijO"
+      },
+      "output": {
+        "nodeId": "B1d60kKssu",
+        "pinKey": "__out__"
+      }
+    },
+    {
+      "id": "SkwxTRJYiid",
+      "input": {
+        "nodeId": "HJGaA1Fjju",
+        "pinKey": "BJlzICOSv1-"
+      },
+      "output": {
+        "nodeId": "H15aCJYjiu",
+        "pinKey": "SyBtREhlW"
+      }
+    },
+    {
+      "id": "rJdepRyFosd",
+      "input": {
+        "nodeId": "r1opRyFoo_",
+        "pinKey": "ryv7IRdSP1b"
+      },
+      "output": {
+        "nodeId": "Sy8aCJtjiO",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "rJte6AyYjiu",
+      "input": {
+        "nodeId": "H15aCJYjiu",
+        "pinKey": "SyKd0E2x-"
+      },
+      "output": {
+        "nodeId": "r1opRyFoo_",
+        "pinKey": "ByHmL0uHPk-"
+      }
+    },
+    {
+      "id": "ryyxgYjs_",
+      "input": {
+        "nodeId": "Sy8aCJtjiO",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "H1maC1Koi_",
+        "pinKey": "H1xFbLsid"
+      }
+    },
+    {
+      "id": "H1u4eYiid",
+      "input": {
+        "nodeId": "SJ1Vetsj_",
+        "pinKey": "ry4tfLji_"
+      },
+      "output": {
+        "nodeId": "Hkp01FjjO",
+        "pinKey": "H1ZzbIsid"
+      }
+    },
+    {
+      "id": "SJmbZKjju",
+      "input": {
+        "nodeId": "r1opRyFoo_",
+        "pinKey": "ByU7LRuSPkW"
+      },
+      "output": {
+        "nodeId": "SJ6eWtjsO",
+        "pinKey": "HJhXDIY9-"
+      }
+    },
+    {
+      "id": "SJAbUYssu",
+      "input": {
+        "nodeId": "BJ_kUYosu",
+        "pinKey": "SkSuD6LMb"
+      },
+      "output": {
+        "nodeId": "rkgaC1Fjiu",
+        "pinKey": "Sk3zTLjsO"
+      }
+    },
+    {
+      "id": "Hkmf8tosO",
+      "input": {
+        "nodeId": "SJ6eWtjsO",
+        "pinKey": "BJI7P8t9Z"
+      },
+      "output": {
+        "nodeId": "BJ_kUYosu",
+        "pinKey": "Bk4gU0drwJ-"
+      }
+    },
+    {
+      "id": "HyszItii_",
+      "input": {
+        "nodeId": "rkgaC1Fjiu",
+        "pinKey": "r1johLjod"
+      },
+      "output": {
+        "nodeId": "H15aCJYjiu",
+        "pinKey": "BkGpcpcJQ"
+      }
+    }
+  ],
+  "nodes": [
+    {
+      "id": "Hkp01FjjO",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 1
+      },
+      "type": "@/x27-589-device"
+    },
+    {
+      "boundLiterals": {
+        "r1johLjod": "Continuously"
+      },
+      "id": "rkgaC1Fjiu",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 7
+      },
+      "type": "@/set-position"
+    },
+    {
+      "boundLiterals": {
+        "HJCWLAdSwyW": "1",
+        "rkpbU0OrwyZ": "945"
+      },
+      "id": "HJGaA1Fjju",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 6
+      },
+      "type": "xod/math/map"
+    },
+    {
+      "boundLiterals": {
+        "Syygo8si_": "On Boot"
+      },
+      "id": "H1maC1Koi_",
+      "position": {
+        "units": "slots",
+        "x": 4,
+        "y": 2
+      },
+      "type": "@/zero"
+    },
+    {
+      "id": "ryEa01Fjs_",
+      "position": {
+        "units": "slots",
+        "x": 8,
+        "y": 0
+      },
+      "type": "xod/core/boot"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "2"
+      },
+      "id": "HySpR1Yoiu",
+      "position": {
+        "units": "slots",
+        "x": 7,
+        "y": 1
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "2"
+      },
+      "id": "Sy8aCJtjiO",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 3
+      },
+      "type": "xod/core/delay"
+    },
+    {
+      "id": "H1Dp01Foj_",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/to-bus"
+    },
+    {
+      "id": "B1d60kKssu",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 6
+      },
+      "type": "xod/patch-nodes/from-bus"
+    },
+    {
+      "id": "H15aCJYjiu",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 5
+      },
+      "type": "xod/gpio/analog-read"
+    },
+    {
+      "id": "r1opRyFoo_",
+      "position": {
+        "units": "slots",
+        "x": 3,
+        "y": 4
+      },
+      "type": "xod/core/any"
+    },
+    {
+      "id": "SJ1Vetsj_",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "@/update"
+    },
+    {
+      "id": "SJ6eWtjsO",
+      "position": {
+        "units": "slots",
+        "x": 5,
+        "y": 7
+      },
+      "type": "xod/core/defer"
+    },
+    {
+      "boundLiterals": {
+        "Skre8ROSv1-": "0.4"
+      },
+      "id": "BJ_kUYosu",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 8
+      },
+      "type": "xod/core/delay"
+    }
+  ]
+}

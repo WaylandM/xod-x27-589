@@ -1,0 +1,47 @@
+{
+  "description": "Set gauge to zero position. Slow, blocking operation.",
+  "nodes": [
+    {
+      "id": "rJbvbIjsO",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An X27-589 device.",
+      "id": "S1SPWUijd",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "@/input-x27-589-device"
+    },
+    {
+      "description": "Pulse when gauge set to zero.",
+      "id": "H1xFbLsid",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "Syygo8si_",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

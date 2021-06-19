@@ -1,0 +1,58 @@
+{
+  "description": "Change the target position of the motor.",
+  "nodes": [
+    {
+      "id": "ryoO2Uood",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An X27-589 device.",
+      "id": "H1fFnUijO",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-x27-589-device"
+    },
+    {
+      "description": "Target position.",
+      "id": "ryvc2Lisd",
+      "label": "POS",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-number"
+    },
+    {
+      "description": "Update.",
+      "id": "r1johLjod",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 2,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    },
+    {
+      "description": "Pulse on completion.",
+      "id": "Sk3zTLjsO",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    }
+  ]
+}

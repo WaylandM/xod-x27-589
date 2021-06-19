@@ -1,0 +1,47 @@
+{
+  "description": "Move the motor smoothly to the position specified by the set-position node. All other actions are blocked until the motor has reached its target position.",
+  "nodes": [
+    {
+      "id": "BJ5TMUsiO",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 1
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "description": "An X27-589 device.",
+      "id": "SJgqpMIjsu",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 0
+      },
+      "type": "@/input-x27-589-device"
+    },
+    {
+      "description": "Pulse on completion of update.",
+      "id": "H1ZRz8iju",
+      "label": "DONE",
+      "position": {
+        "units": "slots",
+        "x": 0,
+        "y": 2
+      },
+      "type": "xod/patch-nodes/output-pulse"
+    },
+    {
+      "description": "Update.",
+      "id": "S17kjLjs_",
+      "label": "UPD",
+      "position": {
+        "units": "slots",
+        "x": 1,
+        "y": 0
+      },
+      "type": "xod/patch-nodes/input-pulse"
+    }
+  ]
+}

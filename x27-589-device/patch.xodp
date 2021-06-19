@@ -1,0 +1,81 @@
+{
+  "description": "Create an X27-589 device.",
+  "nodes": [
+    {
+      "id": "SyfXe8jjO",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": -4
+      },
+      "type": "xod/patch-nodes/not-implemented-in-xod"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D8"
+      },
+      "description": "1st digital output pin.",
+      "id": "SJ27xLsiu",
+      "label": "PIN1",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": -5
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D9"
+      },
+      "description": "2nd digitial output pin.",
+      "id": "ByQ4g8iid",
+      "label": "PIN2",
+      "position": {
+        "units": "slots",
+        "x": -9,
+        "y": -5
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D10"
+      },
+      "description": "3rd digital output pin.",
+      "id": "SkhQEgLood",
+      "label": "PIN3",
+      "position": {
+        "units": "slots",
+        "x": -8,
+        "y": -5
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "boundLiterals": {
+        "__out__": "D11"
+      },
+      "description": "4th digital output pin.",
+      "id": "rki44x8osu",
+      "label": "PIN4",
+      "position": {
+        "units": "slots",
+        "x": -7,
+        "y": -5
+      },
+      "type": "xod/patch-nodes/input-port"
+    },
+    {
+      "description": "An X27-589 device.",
+      "id": "H1ZzbIsid",
+      "label": "DEV",
+      "position": {
+        "units": "slots",
+        "x": -10,
+        "y": -3
+      },
+      "type": "xod/patch-nodes/output-self"
+    }
+  ]
+}
