@@ -2,5 +2,5 @@
   "description": "X27-589 automotive gauge. Work in progress. Wraps Guy Carpenter's SwitecX25 arduino library (https://github.com/clearwater/SwitecX25).",
   "license": "BSD",
   "name": "x27-589-gauge",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
